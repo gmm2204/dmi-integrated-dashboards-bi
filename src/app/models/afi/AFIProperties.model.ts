@@ -1,0 +1,90 @@
+export interface AFIProperties {
+    SalmonellaPercentage(SalmonellaPercentage: any): unknown;
+    BrucellaPercentage(BrucellaPercentage: any): unknown;
+    ChikungunyaPercentage(ChikungunyaPercentage: any): unknown;
+    SPneumoniaePercentage(SPneumoniaePercentage: any): unknown;
+    BartonellaPercentage(BartonellaPercentage: any): unknown;
+    LeptospiraPercentage(LeptospiraPercentage: any): unknown;
+    CburnetiiPercentage(CburnetiiPercentage: any): unknown;
+    BpseudomelleNumber(BpseudomelleNumber: any): unknown;
+    BPseudomalleiPercentage(BPseudomalleiPercentage: any): unknown;
+    TotalCount(TotalCount: any): unknown;
+    Otheradmissiondiagnosis(Otheradmissiondiagnosis: any): unknown;
+    Weight(Weight: any): unknown;
+    OutcomePercentage: number;
+    OutcomeDescription(OutcomeDescription: any): unknown;
+    OutcomeNumber: number;
+    OfEnrolledHaveOutcomePercentage: any;
+    HaveADiagnosisNumber(HaveADiagnosisNumber: any): unknown;
+    OfEnrolledHaveADocumentedPercentage(OfEnrolledHaveADocumentedPercentage: any): unknown;
+    SamplesTestedNumber: any;
+    UnspeciatedPercentage: any;
+    PanMalariaPercentage: any;
+    PFalciparumPercentage: any;
+    MixedInfectionPercentage: any;
+    UnspeciatedNumber: any;
+    PanMalariaNumber: any;
+    PFalciparumNumber: any;
+    MixedInfectionNumber: any;
+    HealthFacility: any;
+    UFPercentage: any;
+    MERSCovPercentage: any;
+    DFPercentage: any;
+    SARIPercentage: any;
+    HIV1Percentage: any;
+    SPneumonieNumber: any;
+    SPneumoniePercentage: any;
+    LeishmaniaPercentage: any;
+    PlasmodiumPercentage: any;
+    DenguePercentage: any;
+    RiftValleyFeverPercentage: any;
+    PlasmodiumNumber(PlasmodiumNumber: any): unknown;
+    HIV1Number(HIV1Number: any): unknown;
+    SalmonellaNumber(SalmonellaNumber: any): unknown;
+    RickettsiaNumber(RickettsiaNumber: any): unknown;
+    DengueNumber(DengueNumber: any): unknown;
+    BrucellaNumber(BrucellaNumber: any): unknown;
+    SPneumoniaeNumber(SPneumoniaeNumber: any): unknown;
+    ChikungunyaNumber(ChikungunyaNumber: any): unknown;
+    LeishmaniaNumber(LeishmaniaNumber: any): unknown;
+    BartonellaNumber(BartonellaNumber: any): unknown;
+    LeptospiraNumber(LeptospiraNumber: any): unknown;
+    CburnetiiNumber(CburnetiiNumber: any): unknown;
+    RiftValleyFeverNumber(RiftValleyFeverNumber: any): unknown;
+    BPseudomalleiNumber(BPseudomalleiNumber: any): unknown;
+    LeptospirosisNumber(LeptospirosisNumber: any): unknown;
+    MalariaNumber(MalariaNumber: any): unknown;
+    
+    WeekNumber: number;
+    Count: number;
+    Percentage: number;
+    AgeGroup: string;
+    Gender: string;
+    ScreenedNumber: number;
+    EnrolledNumber: number;
+    EligibleNumber: number;
+    SampledNumber: number;
+    EligiblePercentage: number;
+    EnrolledPercentage: number;
+    SampledPercentage: number;
+
+    TotalEnrolledNumber: number;
+    MaleEnrolledNumber: number;
+    FemaleEnrolledNumber: number;
+    MaleEnrolledPercentage: number;
+    FemaleEnrolledPercentage: number;
+
+    TotalNumber: number;
+
+    NegativeNumber: number;
+    NegativePercentage: number;
+
+    PositiveNumber: number;
+    PositivePercentage: number;
+    
+    MERSCovNumber: number;
+    SARINumber: number;
+    UFNumber: number;
+    DFNumber: number;
+    NonUFSARIDFMERSCVONumber: number;
+}
